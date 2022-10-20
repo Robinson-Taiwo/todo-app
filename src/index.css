@@ -5,6 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #082dff 0%, #f516ab 100%);
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
 code {
